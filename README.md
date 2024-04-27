@@ -1,5 +1,3 @@
-# LAB11
-
 |  | |
 | ----------- | ----------- |
 | <b> Nama     | Muhammad Din Al Ayubi       |
