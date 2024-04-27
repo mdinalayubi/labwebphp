@@ -1,0 +1,314 @@
+/* import google font */
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400 ;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0 ,300;0,700;1,300&display=swap');
+/* Reset CSS */
+*{
+	margin: 0;
+	padding: 0; 
+}
+body{ 
+	line-height:1;
+	font-size:100%;
+	font-family:'Open Sans', sans-serif; 
+	color:#5a5a5a;
+}
+#container{
+    width: 980px;
+    margin: 0 auto;
+	box-shadow: 0 0 1em #cccccc; 
+}
+
+/* header */
+header{
+    padding: 20px;
+}
+header h1{
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
+
+/* navigasi */
+nav{
+    display: block;
+	background-color: #1f5faa; 
+}
+nav a {
+	padding: 15px 30px; 
+	display: inline-block; 
+	color: #ffffff; 
+	font-size: 14px; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+nav a.active, 
+nav a:hover{
+	background-color: #2b83ea; 
+}
+
+/* Hero Panel */
+#hero{
+	background-color: #e4e4e5; 
+	padding: 50px 20px; 
+	margin-bottom: 20px;
+}
+#hero h1{ 
+	margin-bottom: 20px; 
+	font-size: 35px;
+}
+#hero p{ 
+	margin-bottom: 20px; 
+	font-size: 18px; 
+	line-height: 25px;
+}
+
+/* main content */
+#wrapper {
+    margin: 0;
+}
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+
+/* widget */
+.widget-box{
+border:1px solid #eee; 
+margin-bottom:20px;
+}
+.widget-box 
+.title{ 
+	padding:10px 16px; 
+	background-color:#428bca; 
+	color:#fff;
+}
+.widget-box ul{ 
+	list-style-type:none;
+}
+.widget-box li{ 
+	border-bottom:1px solid #eee;
+}
+.widget-box li a{ 
+	padding:10px 16px; 
+	color:#333; 
+	display:block; 
+	text-decoration:none;
+}
+.widget-box 
+li:hover a{ 
+	background-color:#eee;
+}
+.widget-box p{ 
+	padding:15px;
+	line-height:25px; 
+}
+
+/* footer */
+footer {
+    clear:both;
+	background-color:#1d1d1d; 
+	padding:20px;
+	color:#eee;
+}
+
+/* layout About */
+.about{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #e4e4e5; 
+	clear: both;
+	padding:35px;
+	line-height:25px; 
+}
+
+.avatar {
+  width: 110px;
+  border-radius: 50%;
+}
+
+/* Layout Kontak */
+.kontak-body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+.kontak-form-group {
+    margin-bottom: 1rem;
+}
+
+.kontak-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.kontak-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.kontak-form-control:focus {
+    border: 1px solid #313131;
+}
+
+
+textarea.kontak-form-control {
+    height: auto;
+}
+
+label.kontak-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+
+.kontak-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.kontak-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.kontak-btn-lg, 
+.kontak-btn-group-lg>
+.kontak-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+
+input[type="submit"].kontak-btn-block, 
+input[type="reset"].kontak-btn-block, 
+input[type="button"].kontak-btn-block {
+    width: 100%;
+}
+
+/* box */
+.box { 
+	display:block;
+	float:left;
+	width:33.333333%; 
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box;
+	padding:0 10px;
+	text-align:center; 
+}
+.box h3 {
+	margin: 15px 0;
+}
+.box p {
+	line-height: 20px; 
+	font-size: 14px; 
+	margin-bottom: 15px;
+}
+box img {
+	border: 0;
+	vertical-align: middle; 
+}
+.image-circle { 
+	border-radius: 50%;
+}
+.row {
+	margin: 0 -10px;
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+}
+.row:after, 
+.row:before, 
+.entry:after, 
+.entry:before {
+	content:'';
+    display:table;
+}
+.row:after, 
+.entry:after {
+    clear:both;
+}
+
+.divider { border:0;
+border-top:1px solid #eeeeee;
+    margin:40px 0;
+}
+
+/* entry */
+.entry {
+	margin: 15px 0;
+}
+.entry h2 { 
+	margin-bottom: 20px;
+}
+.entry p { 
+	line-height: 25px;
+}
+.entry img { 
+	float: left;
+	border-radius: 5px;
+	margin-right: 15px; 
+}
+.entry .right-img { 
+	float: right;
+}
+
+
+
+
+
+
+
+
